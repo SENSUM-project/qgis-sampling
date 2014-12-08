@@ -1,0 +1,26 @@
+(dp0
+S'ALG_DESC'
+p1
+VThe script generates a sample according to a Probability-Proportional-to-Size Sample Design, using the input Focus Map as inclusion probability distribution.\u000aThe size of the sample is user-defined.\u000a\u000a<b>Note:</b> the input Focus Map is trimmed to the min value 1e-6 to avoid zero inclusion probabilities, and normalized.\u000a\u000ain output the spatial distribution of sampling point is provided. Each point is assigned as attribute (inc_prob) its inclusion probability.
+p2
+sS'density_layer'
+p3
+VInput Focus Map, defining the inclusion probability and the reference area frame. The NA points are automatically excluded from the frame.\u000aThe Focus Map is trimmed and normalized to generate a valid inclusion probability distribution.
+p4
+sS'ALG_CREATOR'
+p5
+VMassimiliano Pittore - GFZ - Centre for Early Warning - Project SENSUM
+p6
+sS'sample_size'
+p7
+VNumber of units to be drawn from the population (number of pixels not NA in the area frame)
+p8
+sS'ALG_HELP_CREATOR'
+p9
+VMassimiliano Pittore - GFZ - Centre for Early Warning - Project SENSUM
+p10
+sS'sampling_points'
+p11
+VSample extracted. For each point its inclusion probability is provided as attribute (inc_prob).
+p12
+s.

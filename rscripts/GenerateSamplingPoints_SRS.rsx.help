@@ -1,0 +1,30 @@
+(dp0
+S'ALG_DESC'
+p1
+VThe script generates a sample according to a Simple Random Sampling without replacement of the units (not NA) in the area frame described by the input Focus Map. \u000a\u000a<b>NOTE</b>: the input Focus Map is not normalized.\u000a\u000aThe sample points have as attribute the value of the underlying Focus Map (attribute focus_map)
+p2
+sS'density_layer'
+p3
+Vinput Focus Map
+p4
+sS'ALG_CREATOR'
+p5
+VMassimiliano Pittore - GFZ - Centre for Early Warning - Project SENSUM
+p6
+sS'sample_size'
+p7
+Vnumber of units in the sample
+p8
+sS'ALG_HELP_CREATOR'
+p9
+VMassimiliano Pittore - GFZ - Centre for Early Warning - Project SENSUM
+p10
+sS'consider_NA'
+p11
+Vif consider_NA=TRUE the samples are not generated in correspondance of NA points.
+p12
+sS'sampling_points'
+p13
+VSample drawn according to Simple Random Sampling without replacement. Each point has as attribute (focus_map) the value of the underlying Focus Map in input.
+p14
+s.
